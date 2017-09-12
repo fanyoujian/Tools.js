@@ -91,7 +91,6 @@ function trim(str){
 	return str.replace(/^(\s|\xA0)+|(\s|\xA0)+$/g, '');     
 }  
 // 字符串转成 数字
-// 有可能输入的是"" 所以正式使用 需结合 isEmpty() 使用
 function string2Int(va){
 	//if(isEmpty(va))return 0;
 
